@@ -30,7 +30,7 @@ for class_file in classes:
   path = val_path + class_file + '/'
   images_files = os.listdir(path)
   for image_file in images_files:
-    val_path_list.append(path+'image_file')
+    val_path_list.append(path+ image_file)
   
 def get_prediction(file_path):
   img = image.load_img(file_path, target_size=(224, 224))
