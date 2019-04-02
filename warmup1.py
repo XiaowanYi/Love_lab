@@ -47,6 +47,6 @@ for i in range(len(val_path_list)):
 
 save_path = '/home/xiao/warmup1'
 df = pd.DataFrame(results)
-df.to_csv(os.path.join(save_path, 'warmup1_prediction'))
+df.to_csv(os.path.join(save_path, 'warmup1_prediction.csv'))
 print ('YEAH!')
 
