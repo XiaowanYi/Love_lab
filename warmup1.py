@@ -45,7 +45,7 @@ for i in range(len(val_path_list)):
     print ('now predicting', i, 'th image')
   results.append(get_prediction(val_path_list[i]))
 
-save_path = '/home/xiao/warmup1/'
+save_path = '/home/xiao/warmup1'
 df = pd.DataFrame(results)
 df.to_csv(save_path)
 print ('YEAH!')
