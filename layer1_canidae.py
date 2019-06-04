@@ -70,7 +70,7 @@ validation_generator = train_datagen.flow_from_directory(
     target_size=(img_rows, img_cols),
     batch_size= bs,
     classes = canidae_list,
-    class_mode='categorical'
+    class_mode='categorical', 
     subset ='validation') # set as validation data
 
 #Customize a constraint class that clip w to be [K.epsilon(), inf]
